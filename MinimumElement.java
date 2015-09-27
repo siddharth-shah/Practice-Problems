@@ -31,7 +31,7 @@ public class MinimumElement {
 		int[] numArray = { 3, 4, 5, 6, 7, 8, 2 };
 		int high = numArray.length - 1;
 		int low = 0;
-		int minimum = findMin(low, high, numArray);
-		System.out.println(numArray[minimum]);
+		int minimum =   findMin(low, high, numArray);
+		System.out.println (numArray[minimum]);
 	}
 }
